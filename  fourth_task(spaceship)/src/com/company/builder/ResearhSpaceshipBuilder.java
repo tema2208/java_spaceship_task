@@ -10,10 +10,10 @@ public class ResearhSpaceshipBuilder implements SpaceshipBuilder{ //единст
     private Frame frame;
     private int frame_size;
     private Moduls research_engine;
-    private ArrayList<Radar> radar_array;
-    private ArrayList<LivingModule> living_module_array;
-    private ArrayList<LandingModule> landing_module_array;
-    private ArrayList<Armament> research_armament_array;
+    private ArrayList<Radar> radar_array = new ArrayList<>();
+    private ArrayList<LivingModule> living_module_array = new ArrayList<>();
+    private ArrayList<LandingModule> landing_module_array = new ArrayList<>();
+    private ArrayList<Armament> research_armament_array = new ArrayList<>();
 
 
     public ResearhSpaceshipBuilder(Frame frame){
@@ -117,7 +117,7 @@ public class ResearhSpaceshipBuilder implements SpaceshipBuilder{ //единст
 
     @Override
     public SpaceshipBuilder addArmament(Armament ...mass) {
-        if (mass != null) {
+        if (mass.length != 0) {
             System.out.println("исследовательский корабль не имеет вооружения");
             return null;
         }
@@ -145,5 +145,8 @@ public class ResearhSpaceshipBuilder implements SpaceshipBuilder{ //единст
                 '}';
     }
 
-
+//    public int test(Armament ...mass){
+//        if (mass != null) return 1;
+//        else return 0;
+//    }
 }

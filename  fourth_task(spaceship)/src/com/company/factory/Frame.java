@@ -9,8 +9,8 @@ public class Frame {
     private final double armor;
 
     public Frame(int A, int n, double cost, double armor){
-        if (A > 70 && n >= 0 && armor > 0){
-            this.size = (int) round(A * pow(2, n/2));
+        if (A >= 70 && n >= 0 && armor > 0){
+            this.size = (int) round(A * pow(2,n/2));
             this.cost = cost;
             this.armor = armor;
         }

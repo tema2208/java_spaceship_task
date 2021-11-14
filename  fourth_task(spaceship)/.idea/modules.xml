@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ fourth_task(spaceship).iml" filepath="$PROJECT_DIR$/ fourth_task(spaceship).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spaceship.iml" filepath="$PROJECT_DIR$/Spaceship.iml" />
     </modules>
   </component>
 </project>
