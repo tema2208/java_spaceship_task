@@ -44,7 +44,7 @@ public class Main {
         Frame frame = new Frame(80, 5, 100, 9);
         ResearhSpaceshipBuilder research_builder = new ResearhSpaceshipBuilder(frame);
 
-        Spaceship spaceship = research_builder.addEngine(engine1).addRadar(radar1).addLivingModule(living_module1).addLangindModule(landing_module1).addArmament().build();
+        Spaceship spaceship1 = research_builder.addEngine(engine1).addRadar(radar1).addLivingModule(living_module1).addLangindModule(landing_module1).addArmament().build();
 //        research_builder.addEngine(engine1, radar1, living_module1, landing_module1, weapon1);
 
 
