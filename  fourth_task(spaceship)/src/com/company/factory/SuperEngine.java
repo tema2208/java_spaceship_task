@@ -1,10 +1,10 @@
 package com.company.factory;
 
-public class StandartEngine extends Engine{
-    private int size;  // Скажем, не менее 1/12 от объёма корпуса. И до 1/2 у плохого двигателя или до 1/8 у хорошего.
-    private double cost;
+public class SuperEngine extends Engine{
+    int size;
+    double cost;
 
-    protected StandartEngine(int size, double cost){
+    protected SuperEngine(int size, double cost){
         this.size = size;
         this.cost = cost;
     }

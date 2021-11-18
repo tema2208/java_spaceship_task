@@ -4,13 +4,14 @@ import static java.lang.Math.pow;
 import static java.lang.Math.round;
 
 public class Frame {
+    private final int A_const = 80;
     private final int size;
     private final double cost;
     private final double armor;
 
-    public Frame(int A, int n, double cost, double armor){
-        if (A >= 70 && n >= 0 && armor > 0){
-            this.size = (int) round(A * pow(2,n/2));
+    public Frame(int n, double cost, double armor){
+        if (n >= 0 && armor >= 0){
+            this.size = (int) round(A_const * pow(2,n/2));
             this.cost = cost;
             this.armor = armor;
         }
