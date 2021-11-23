@@ -42,7 +42,7 @@ public class ModulsFactory extends Factory {
 
     @Override
     public StandartEngine createStandartEngine(int size){
-        return new StandartEngine(size, 30);
+        return new StandartEngine(size, 550);
     }
 
     @Override
@@ -67,17 +67,17 @@ public class ModulsFactory extends Factory {
 
     @Override
     public Armament createStratagicWeapon(){
-        return new Armament(15, 15, 1000, 15, 100, ArmamentType.STRATEGIC);
+        return new Armament(5, 15, 1000, 15, 100, ArmamentType.STRATEGIC);
     }
 
     @Override
     public Armament createStandartWeapon(){
-        return new Armament(20, 19, 700, 12, 120, ArmamentType.STANDART);
+        return new Armament(5, 19, 700, 12, 120, ArmamentType.STANDART);
     }
 
     @Override
     public Armament createDefensiveWeapon(){
-        return new Armament(25, 21, 400, 10, 115, ArmamentType.DEFENSIVE);
+        return new Armament(15, 21, 400, 10, 115, ArmamentType.DEFENSIVE);
     }
 }
 

@@ -50,14 +50,14 @@ public class Armament extends Moduls {
 
     @Override
     public String toString() {
-        return "Armament{" +
-                "size=" + size +
-                ", cost=" + cost +
-                ", range=" + range +
-                ", recharge_time=" + recharge_time +
-                ", damage=" + damage +
-                ", type=" + type +
-                '}';
+        return "Вооружение" +
+                ", размеры =" + size +
+                ", цена =" + cost +
+                ", дальность действия=" + range +
+                ", время перезарядки =" + recharge_time +
+                ", урон =" + damage +
+                ", тип оружия =" + type +
+                ';';
     }
 
 //    public void setRecharge_time(double recharge_time) {

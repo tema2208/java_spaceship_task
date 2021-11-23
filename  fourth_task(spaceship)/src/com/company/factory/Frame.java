@@ -32,10 +32,10 @@ public class Frame {
 
     @Override
     public String toString() {
-        return "Frame{" +
-                "size=" + size +
-                ", cost=" + cost +
-                ", armor=" + armor +
-                '}';
+        return "Корпус:" +
+                "размер =" + size +
+                ", цена =" + cost +
+                ", бронирование =" + armor +
+                ';';
     }
 }

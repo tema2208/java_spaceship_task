@@ -25,11 +25,11 @@ public class Radar extends Moduls{
 
     @Override
     public String toString() {
-        return "Radar{" +
-                "size=" + size +
-                ", cost=" + cost +
-                ", range=" + range +
-                ", detection_force=" + detection_force +
-                '}';
+        return "Радар:" +
+                "размер =" + size +
+                ", цена=" + cost +
+                ", область дествия =" + range +
+                ", сила распознавания =" + detection_force +
+                ';';
     }
 }

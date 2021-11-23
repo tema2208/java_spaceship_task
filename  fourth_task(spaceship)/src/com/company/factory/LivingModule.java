@@ -21,9 +21,9 @@ public class LivingModule extends Moduls {
 
     @Override
     public String toString() {
-        return "LivingModule{" +
-                "size=" + size +
-                ", cost=" + cost +
-                '}';
+        return "Жилой модуль:" +
+                "размер =" + size +
+                ", цена =" + cost +
+                ';';
     }
 }

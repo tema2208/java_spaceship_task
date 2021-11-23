@@ -21,9 +21,9 @@ public class LandingModule extends Moduls {
 
     @Override
     public String toString() {
-        return "LandingModule{" +
-                "size=" + size +
-                ", cost=" + cost +
-                '}';
+        return "Посадочный модуль:" +
+                "размер =" + size +
+                ", цена =" + cost +
+                ';';
     }
 }
