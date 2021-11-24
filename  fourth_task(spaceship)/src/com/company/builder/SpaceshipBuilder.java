@@ -338,7 +338,7 @@ public class SpaceshipBuilder implements Builder { //единственный м
                             spaceship.setWeapon_standart(weapon_standart);
                             cargo_size -= weapon_defensive.getSize() * weapons_info.get(ArmamentType.DEFENSIVE) - weapon_standart.getSize() * weapons_info.get(ArmamentType.STANDART) - weapon_strategic.getSize() * weapons_info.get(ArmamentType.STRATEGIC);
                         }
-                        else throw new ArithmeticException("Не хватает места поставить оборонительное вооружение на Военный корабль стратегического назначения4");spaceship.setType(SpaceshipType.MILITARY_STRATEGIC);
+                        else throw new ArithmeticException("Не хватает места поставить вооружение на Военный корабль стратегического назначения4");spaceship.setType(SpaceshipType.MILITARY_STRATEGIC);
                 }
                 if(landing_moduls_count != 0 && cargo_size - landing_moduls_count * landing_module.getSize() > 0){
                     spaceship.setLanding_modul(landing_module, landing_moduls_count);
