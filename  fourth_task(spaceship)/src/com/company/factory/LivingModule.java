@@ -1,8 +1,6 @@
 package com.company.factory;
 
 public class LivingModule extends Moduls {
-    private int size;
-    private double cost;
 
     protected LivingModule(int size, double cost) {
         this.size = size;

@@ -22,21 +22,6 @@ public interface Builder {
 
     public Builder setAppointment(Spaceship.Type appointment);
 
-    public Builder setEngineType(EngineType type);
-
     public Spaceship build();
 
-
-
-//    public SpaceshipBuilder addEngine(Moduls engine); // тут можно уростить
-//
-//    public SpaceshipBuilder addRadar(Radar...radar);
-//
-//    public SpaceshipBuilder addLivingModule(LivingModule...living_module);
-//
-//    public SpaceshipBuilder addLangindModule(LandingModule...landing_module);
-//
-//    public SpaceshipBuilder addArmament(Armament...weapon);
-//
-//    public Spaceship build();
 }

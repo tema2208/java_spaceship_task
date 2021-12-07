@@ -2,8 +2,8 @@ package com.company.factory;
 
 
 public abstract class Moduls {
-    //private int size;
-    //private double cost; // смысл создавать в абстрактном классе поля?
+    int size;
+    double cost;
 
     public abstract int getSize();
 

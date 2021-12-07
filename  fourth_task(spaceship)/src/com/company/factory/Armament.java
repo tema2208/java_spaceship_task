@@ -36,7 +36,7 @@ public class Armament extends Moduls {
 //        this.range = range;
 //    }
 
-    public double getRecharge_time() {
+    public double getRechargeTime() {
         return recharge_time;
     }
 
@@ -59,8 +59,4 @@ public class Armament extends Moduls {
                 ", тип оружия =" + type +
                 ';';
     }
-
-//    public void setRecharge_time(double recharge_time) {
-//        this.recharge_time = recharge_time;
-//    }
 }
